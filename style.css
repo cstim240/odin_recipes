@@ -1,0 +1,41 @@
+/*
+* Author: Tim Supan
+* Title: Odin-Recipes, an HTML and CSS Exercise from The Odin Project
+* Date Modified: March 30, 2023
+*/
+
+/* the '*' is the CSS class selector for all elements */
+* { 
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+.mainHeader {
+    background-color: #BD799C;
+    font-size: 80px;
+    text-align: center;
+
+    
+}
+
+.mainImg {
+    width: 500px;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+a {
+    font-size: 40px;
+}
+
+#mainMintChicken,
+#mainLasagna,
+#mainStrawberrySpinachSalad {
+    width: 250px;
+    height:auto;
+}
+
+.returnBtn {
+    font-size: 20px;
+    color: magenta;
+}
