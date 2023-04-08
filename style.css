@@ -11,10 +11,16 @@
 
 /* outer display type vs. inner display type*/
 .mainHeader { /*by default, elements like h1 use block as their outer display type: box breaks onto a new line, wdith and height properties respected */
-    background-color: #BD799C;
     font-size: 80px;
     text-align: center;
     width: auto;
+    display: block;
+}
+
+.mainHeader span { /*we add this span element to make the background color wrap around only on the text (inline element)*/
+    background-color: #BD799C;
+    padding: 10px 10px 10px 10px;
+    border-radius: 10px 30px 10px; /* rounds of corners, top L --> top R & bot L --> bot R
 }
 
 /* if outer display type: inline - this means box will NOT break into new line
@@ -22,7 +28,7 @@
  elements like <span> are normally inline*/
 
 /*inner display type dictates how elements inside that box are laid out*/
-/* display: inline-block; this is used when you do not want an item to break onto a new line but wait it to respect width and height
+/* display: inline-block; this is used when you do not want an item to break onto a new line but wait it to respect width and height*/
 
 .mainImg {
     width: 500px;
@@ -30,6 +36,7 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 10cm;
 }
 
 a {
