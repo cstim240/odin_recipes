@@ -8,13 +8,21 @@
 * { 
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }
-.mainHeader {
+
+/* outer display type vs. inner display type*/
+.mainHeader { /*by default, elements like h1 use block as their outer display type: box breaks onto a new line, wdith and height properties respected */
     background-color: #BD799C;
     font-size: 80px;
     text-align: center;
-
-    
+    width: auto;
 }
+
+/* if outer display type: inline - this means box will NOT break into new line
+ width and height properties will not apply
+ elements like <span> are normally inline*/
+
+/*inner display type dictates how elements inside that box are laid out*/
+/* display: inline-block; this is used when you do not want an item to break onto a new line but wait it to respect width and height
 
 .mainImg {
     width: 500px;
