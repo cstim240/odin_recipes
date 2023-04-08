@@ -15,12 +15,14 @@
     text-align: center;
     width: auto;
     display: block;
+    
 }
 
 .mainHeader span { /*we add this span element to make the background color wrap around only on the text (inline element)*/
     background-color: #BD799C;
     padding: 10px 10px 10px 10px;
     border-radius: 10px 30px 10px; /* rounds of corners, top L --> top R & bot L --> bot R */
+    border: 5px plum dotted;
 }
 
 /* if outer display type: inline - this means box will NOT break into new line
