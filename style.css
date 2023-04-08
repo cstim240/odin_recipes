@@ -22,7 +22,7 @@
     background-color: #BD799C;
     padding: 10px 10px 10px 10px;
     border-radius: 10px 30px 10px; /* rounds of corners, top L --> top R & bot L --> bot R */
-    border: 5px plum dotted;
+    border: 2px pink solid;
 }
 
 /* if outer display type: inline - this means box will NOT break into new line
@@ -39,6 +39,7 @@
     margin-left: auto;
     margin-right: auto;
     border-radius: 10cm;
+    border: 10px plum dotted;
 }
 
 
